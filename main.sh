@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 export GITHUB_BRANCH=${GITHUB_REF##*heads/}
-export SLACK_ICON=${SLACK_ICON:-"https://upload.wikimedia.org/wikipedia/commons/6/68/NoxttonBot.png"}
+export SLACK_ICON=${SLACK_ICON:-"https://upload.wikimedia.org/wikipedia/commons/6/68/NoxttonBot.png?size=48"}
 export SLACK_USERNAME=${SLACK_USERNAME:-"Github Action - Slack Notifier"}
 export CI_SCRIPT_OPTIONS="ci_script_options"
 export SLACK_TITLE=${SLACK_TITLE:-"Message"}

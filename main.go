@@ -112,7 +112,7 @@ func main() {
 				AuthorName: envOr(EnvGithubActor, ""),
 				AuthorLink: "http://github.com/" + os.Getenv(EnvGithubActor),
 				AuthorIcon: "http://github.com/" + os.Getenv(EnvGithubActor) + ".png?size=32",
-				Footer: "<https://github.com/drilonrecica/github-actions-library|Powered By drilonrecica's GitHub Actions Library>",
+				Footer: "<https://github.com/drilonrecica/action-slack-notify|Powered By drilonrecica's action-slack-notify action>",
 				Fields: fields,
 			},
 		},

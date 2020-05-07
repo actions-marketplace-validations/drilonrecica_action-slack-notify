@@ -50,7 +50,7 @@ You can see the action block with all variables as below:
       env:
         SLACK_CHANNEL: general
         SLACK_COLOR: '#3278BD'
-        SLACK_ICON: https://github.com/drilonrecica.png?size=48
+        SLACK_ICON: https://upload.wikimedia.org/wikipedia/commons/6/68/NoxttonBot.png?size=48
         SLACK_MESSAGE: 'Post Content :rocket:'
         SLACK_TITLE: Post Title
         SLACK_USERNAME: drilonrecica

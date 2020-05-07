@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 export GITHUB_BRANCH=${GITHUB_REF##*heads/}
-export SLACK_ICON=${SLACK_ICON:-"https://avatars3.githubusercontent.com/u/6892529?v=4"}
-export SLACK_USERNAME=${SLACK_USERNAME:-"dre's Bot"}
+export SLACK_ICON=${SLACK_ICON:-"https://upload.wikimedia.org/wikipedia/commons/6/68/NoxttonBot.png"}
+export SLACK_USERNAME=${SLACK_USERNAME:-"Github Action - Slack Notifier"}
 export CI_SCRIPT_OPTIONS="ci_script_options"
 export SLACK_TITLE=${SLACK_TITLE:-"Message"}
 export COMMIT_MESSAGE=$(cat "/github/workflow/event.json" | jq .commits | jq '.[0].message' -r)
